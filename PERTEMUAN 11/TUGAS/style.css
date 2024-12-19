@@ -1,0 +1,153 @@
+
+
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.promosi {
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.galeri {
+    padding: 20px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider img {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.kontak {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Layar kecil (smartphone) */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    header {
+      padding: 10px;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav ul li {
+      margin-right: 0;
+    }
+    .hero {
+      height: 50vh;
+    }
+    .slider {
+      flex-direction: column;
+    }
+    .slider img {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  
+/* Layar sedang (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    body {
+      font-size: 16px;
+    }
+    header {
+      padding: 15px;
+    }
+    .hero {
+      height: 70vh;
+    }
+    .slider {
+      flex-direction: row;
+    }
+    .slider img {
+      width: 30%;
+      height: 200px;
+    }
+  }
+  
+/* Layar besar (desktop) */
+@media only screen and (min-width: 993px) {
+    body {
+      font-size: 18px;
+    }
+    header {
+      padding: 20px;
+    }
+    .hero {
+      height: 100vh;
+    }
+  }
+      

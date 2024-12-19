@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 5</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-style: bolder;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1F509A;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        nav a:hover {
+            background-color:aliceblue;
+            color: black;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        article {
+            flex: 3;
+            margin-right: 20px;
+        }
+        article section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #1F509A;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>_The Mountainers_</h1>
+    <p>Temukan petualangan tak terlupakan di puncak-puncak tertinggi,berbagi pengalaman, 
+      dan bergabung dengan komunitas pecinta alam yang siap menjelajahi keindahan gunung bersama!"</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Layanan</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<main>
+    <article>
+        <section>
+            <h2>Gunung rinjani</h2>
+            <p>Gunung Rinjani adalah gunung berapi yang terletak di Pulau Lombok, Nusa Tenggara Barat,
+                dengan ketinggian mencapai 3.726 meter di atas permukaan laut. Gunung ini terkenal dengan puncaknya yang
+                bernama Puncak Dewi An jani dan danau kawah yang indah bernama Segara Anak. Berikut adalah beberapa poin penting mengenai Gunung Rinjani:</p>
+        </section>
+        <section>
+            <h2>Gunung Sumbing</h2>
+            <p>Gunung Sumbing adalah gunung berapi yang terletak di Jawa Tengah, Indonesia, dengan ketinggian mencapai 3.371 meter di atas permukaan laut,
+               menjadikannya gunung tertinggi ketiga di Pulau Jawa setelah Gunung Semeru dan Gunung Slamet. Gunung Sumbing memiliki beberapa karakteristik 
+               menarik yang membuatnya menjadi tujuan populer bagi para pendaki dan pecinta alam</p>
+        </section>
+        <section>
+            <h2>Gunung Merapi</h2>
+            <p>Gunung Merapi adalah salah satu gunung berapi paling aktif di Indonesia, terletak di perbatasan antara Jawa Tengah dan Yogyakarta.
+               Dengan ketinggian sekitar 2.930 meter di atas permukaan laut, gunung ini dikenal karena aktivitas vulkaniknya yang sering terjadi 
+               dan dampaknya yang signifikan terhadap masyarakat sekitar.</p>
+        </section>
+    </article>
+
+    <aside>
+        <h2></h2>
+        <img src="https://img.freepik.com/free-photo/landscape-temple-clouds-top-batur-volcano-bali-indonesia_72229-1005.jpg?semt=ais_hybrid" alt="Foto 1" style="width:100%; margin-bottom: 10px;">
+        <img src="https://img.freepik.com/free-photo/sunrise-lake-batur_1385-1765.jpg?semt=ais_hybrid" alt="Foto 2" style="width:100%; margin-bottom: 10px;">
+        <img src="https://img.freepik.com/premium-photo/mount-merapi-indonesia-volcano-landscape-nature-view_446794-16.jpg?semt=ais_hybrid" alt="Foto 3" style="width:100%;">
+    </aside>
+</main>
+
+<footer>
+    <p>Hak Cipta &copy; 2024 Brainly. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
+
